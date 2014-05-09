@@ -1,0 +1,7 @@
+{
+    "name": "raultm/mahout",
+    "description":"PHP Wrapper for JIRA API Rest",
+    "require": {
+        "guzzlehttp/guzzle": "4.0.*@dev"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "self": "https://kinetica.atlassian.net/rest/api/latest/filter/10800",
+    "id": "10800",
+    "name": "PLAN2014",
+    "owner": {
+        "self": "https://kinetica.atlassian.net/rest/api/2/user?username=raul.tierno",
+        "key": "raul.tierno",
+        "name": "raul.tierno",
+        "avatarUrls": {
+            "16x16": "https://kinetica.atlassian.net/secure/useravatar?size=xsmall&ownerId=raul.tierno&avatarId=10201",
+            "24x24": "https://kinetica.atlassian.net/secure/useravatar?size=small&ownerId=raul.tierno&avatarId=10201",
+            "32x32": "https://kinetica.atlassian.net/secure/useravatar?size=medium&ownerId=raul.tierno&avatarId=10201",
+            "48x48": "https://kinetica.atlassian.net/secure/useravatar?ownerId=raul.tierno&avatarId=10201"
+        },
+        "displayName": "Raúl Tierno",
+        "active": true
+    },
+    "jql": "labels = bolsa2014 ORDER BY createdDate DESC",
+    "viewUrl": "https://kinetica.atlassian.net/secure/IssueNavigator.jspa?mode=hide&requestId=10800",
+    "searchUrl": "https://kinetica.atlassian.net/rest/api/latest/search?jql=labels+%3D+bolsa2014+ORDER+BY+createdDate+DESC",
+    "favourite": true,
+    "sharePermissions": [],
+    "sharedUsers": {
+        "size": 0,
+        "items": [],
+        "max-results": 1000,
+        "start-index": 0,
+        "end-index": 0
+    },
+    "subscriptions": {
+        "size": 0,
+        "items": [],
+        "max-results": 1000,
+        "start-index": 0,
+        "end-index": 0
+    }
+}

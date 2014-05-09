@@ -1,0 +1,152 @@
+{
+    "expand": "editmeta,renderedFields,transitions,changelog,operations",
+    "id": "14815",
+    "self": "https://kinetica.atlassian.net/rest/api/latest/issue/14815",
+    "key": "PLAN-572",
+    "fields": {
+        "summary": "Cálculo correcto del VAN",
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "issuetype": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/issuetype/1",
+            "id": "1",
+            "description": "A problem which impairs or prevents the functions of the product.",
+            "iconUrl": "https://kinetica.atlassian.net/images/icons/issuetypes/bug.png",
+            "name": "Bug",
+            "subtask": false
+        },
+        "timespent": null,
+        "reporter": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/user?username=raul.tierno",
+            "name": "raul.tierno",
+            "emailAddress": "raul.tierno@kinetica.mobi",
+            "avatarUrls": {
+                "16x16": "https://kinetica.atlassian.net/secure/useravatar?size=xsmall&ownerId=raul.tierno&avatarId=10201",
+                "24x24": "https://kinetica.atlassian.net/secure/useravatar?size=small&ownerId=raul.tierno&avatarId=10201",
+                "32x32": "https://kinetica.atlassian.net/secure/useravatar?size=medium&ownerId=raul.tierno&avatarId=10201",
+                "48x48": "https://kinetica.atlassian.net/secure/useravatar?ownerId=raul.tierno&avatarId=10201"
+            },
+            "displayName": "Raúl Tierno",
+            "active": true
+        },
+        "created": "2014-03-18T17:03:47.000+0100",
+        "updated": "2014-05-02T10:21:38.000+0200",
+        "description": null,
+        "priority": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/priority/3",
+            "iconUrl": "https://kinetica.atlassian.net/images/icons/priorities/major.png",
+            "name": "Major",
+            "id": "3"
+        },
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10003": null,
+        "issuelinks": [],
+        "customfield_10000": "3_*:*_1_*:*_232824789_*|*_1_*:*_1_*:*_8294_*|*_5_*:*_1_*:*_0",
+        "subtasks": [],
+        "customfield_10008": null,
+        "customfield_10007": null,
+        "status": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/status/5",
+            "description": "A resolution has been taken, and it is awaiting verification by reporter. From here issues are either reopened, or are closed.",
+            "iconUrl": "https://kinetica.atlassian.net/images/icons/statuses/resolved.png",
+            "name": "Resolved",
+            "id": "5",
+            "statusCategory": {
+                "self": "https://kinetica.atlassian.net/rest/api/2/statuscategory/3",
+                "id": 3,
+                "key": "done",
+                "colorName": "green",
+                "name": "Complete"
+            }
+        },
+        "customfield_10006": "1119",
+        "labels": [
+            "bolsa2014"
+        ],
+        "workratio": -1,
+        "project": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/project/10400",
+            "id": "10400",
+            "key": "PLAN",
+            "name": "PLANER",
+            "avatarUrls": {
+                "16x16": "https://kinetica.atlassian.net/secure/projectavatar?size=xsmall&pid=10400&avatarId=10011",
+                "24x24": "https://kinetica.atlassian.net/secure/projectavatar?size=small&pid=10400&avatarId=10011",
+                "32x32": "https://kinetica.atlassian.net/secure/projectavatar?size=medium&pid=10400&avatarId=10011",
+                "48x48": "https://kinetica.atlassian.net/secure/projectavatar?pid=10400&avatarId=10011"
+            }
+        },
+        "environment": null,
+        "customfield_10014": null,
+        "customfield_10015": null,
+        "lastViewed": "2014-05-02T10:21:40.079+0200",
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10012": null,
+        "customfield_10013": null,
+        "components": [],
+        "timeoriginalestimate": null,
+        "customfield_10017": null,
+        "customfield_10016": null,
+        "customfield_10019": null,
+        "customfield_10018": null,
+        "votes": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/issue/PLAN-572/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "resolution": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/resolution/1",
+            "id": "1",
+            "description": "A fix for this issue is checked into the tree and tested.",
+            "name": "Fixed"
+        },
+        "fixVersions": [],
+        "resolutiondate": "2014-03-21T09:44:20.000+0100",
+        "creator": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/user?username=raul.tierno",
+            "name": "raul.tierno",
+            "emailAddress": "raul.tierno@kinetica.mobi",
+            "avatarUrls": {
+                "16x16": "https://kinetica.atlassian.net/secure/useravatar?size=xsmall&ownerId=raul.tierno&avatarId=10201",
+                "24x24": "https://kinetica.atlassian.net/secure/useravatar?size=small&ownerId=raul.tierno&avatarId=10201",
+                "32x32": "https://kinetica.atlassian.net/secure/useravatar?size=medium&ownerId=raul.tierno&avatarId=10201",
+                "48x48": "https://kinetica.atlassian.net/secure/useravatar?ownerId=raul.tierno&avatarId=10201"
+            },
+            "displayName": "Raúl Tierno",
+            "active": true
+        },
+        "aggregatetimeoriginalestimate": null,
+        "duedate": null,
+        "customfield_10020": null,
+        "customfield_10021": "Not Started",
+        "watches": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/issue/PLAN-572/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "customfield_10100": null,
+        "assignee": {
+            "self": "https://kinetica.atlassian.net/rest/api/2/user?username=raul.tierno",
+            "name": "raul.tierno",
+            "emailAddress": "raul.tierno@kinetica.mobi",
+            "avatarUrls": {
+                "16x16": "https://kinetica.atlassian.net/secure/useravatar?size=xsmall&ownerId=raul.tierno&avatarId=10201",
+                "24x24": "https://kinetica.atlassian.net/secure/useravatar?size=small&ownerId=raul.tierno&avatarId=10201",
+                "32x32": "https://kinetica.atlassian.net/secure/useravatar?size=medium&ownerId=raul.tierno&avatarId=10201",
+                "48x48": "https://kinetica.atlassian.net/secure/useravatar?ownerId=raul.tierno&avatarId=10201"
+            },
+            "displayName": "Raúl Tierno",
+            "active": true
+        },
+        "aggregatetimeestimate": null,
+        "versions": [],
+        "timeestimate": null,
+        "aggregatetimespent": null
+    }
+}
