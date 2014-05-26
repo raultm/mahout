@@ -25,10 +25,9 @@ class IssueTest extends \PHPUnit_Framework_TestCase
     */ 
     public function testIssueFieldsId($jsonString, $issueId, $issueKey, $issueSummary)
     {
-        $label = Issue::parseJsonString($jsonString);
-        $this->assertEquals($issueId, $label->getId());
-        $this->assertEquals($issueKey, $label->getKey());
-        $this->assertEquals($issueKey, $label->getKey());
-        $this->assertEquals($issueSummary, $label->getSummary());
+        $issue = Issue::parseJsonString($jsonString);
+        $this->assertEquals($issueId, $issue->getId());
+        $this->assertEquals($issueKey, $issue->getKey());
+        $this->assertEquals($issueSummary, $issue->getSummary());
     }
 }

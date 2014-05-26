@@ -29,16 +29,25 @@ class Issue
     public function toJsonString(){
         return $this->json;
     }
-    
-    public function getId(){
-        return $this->jiraObject->id;
-    }
-    
-    public function getKey(){
-        return $this->jiraObject->key;
-    }
-    
-    public function getSummary(){
-        return $this->jiraObject->fields->summary;
+
+    public function __call($methodName, $arguments)
+    {
+        $methodWords = preg_split('/([[:upper:]][[:lower:]]+)/', $methodName, null, PREG_SPLIT_DELIM_CAPTURE|PREG_SPLIT_NO_EMPTY);
+        foreach($methodWords as $word){
+            echo $word . "\n";
+        }
+        if($methodWords[0] == 'get'){
+            $fieldName = strtolower($methodWords[1]);
+            if(isset($this->jiraObject->$fieldName)){
+                return $this->jiraObject->$fieldName;
+            }
+
+            if(isset($this->jiraObject->fields->$fieldName)){
+                return $this->jiraObject->fields->$fieldName;
+            }
+
+            echo "No existe el campo $fieldName";
+            return false;
+        }
     }
 }
