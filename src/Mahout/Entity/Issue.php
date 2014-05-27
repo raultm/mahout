@@ -33,9 +33,6 @@ class Issue
     public function __call($methodName, $arguments)
     {
         $methodWords = preg_split('/([[:upper:]][[:lower:]]+)/', $methodName, null, PREG_SPLIT_DELIM_CAPTURE|PREG_SPLIT_NO_EMPTY);
-        foreach($methodWords as $word){
-            echo $word . "\n";
-        }
         if($methodWords[0] == 'get'){
             $fieldName = strtolower($methodWords[1]);
             if(isset($this->jiraObject->$fieldName)){

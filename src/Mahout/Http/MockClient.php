@@ -16,7 +16,13 @@ class MockClient extends BaseClient{
     public function handleRequest($request){
         if(!isset($request["type"])){ return parent::handleRequest($request); }
         if($request["type"] == "get"){
-            list($emptyBeginning, $action, $param) = explode("/", $request["action"]);
+            $requestActionArray = explode("/", $request["action"]);
+            $emptyBeginning = $requestActionArray[0];
+            $action = $requestActionArray[1];
+            $param = "";
+            if(isset($requestActionArray[2])){
+                $param = $requestActionArray[2];
+            }
             if($action == "filter"){
                 $filterId = $param;
                 return file_get_contents("./responses/filter$filterId.json");
