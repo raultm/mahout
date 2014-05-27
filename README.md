@@ -66,3 +66,11 @@ echo "<table>" . implode($issuesFormated) . "</table>";
 
 ```
 
+Credits
+--------
+
+Raúl Tierno [@raultm](https://twitter.com/raultm) Software Developer [@kinetica_mobile](https://twitter.com/kinetica_mobile)
+
+![Kinetica Logo](website/static/logo_kinetica.png)
+
+Open sourcing code from Almendralejo
