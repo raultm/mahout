@@ -77,6 +77,6 @@ Credits
 
 Raúl Tierno [@raultm](https://twitter.com/raultm) Software Developer [@kinetica_mobile](https://twitter.com/kinetica_mobile)
 
-![Kinetica Logo](website/static/logo_kinetica.png)
+[![Kinetica Logo](website/static/logo_kinetica.png)](http://www.kinetica.mobi)
 
 Open sourcing code from Almendralejo
