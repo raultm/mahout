@@ -66,6 +66,12 @@ echo "<table>" . implode($issuesFormated) . "</table>";
 
 ```
 
+TO DO
+------
+Handle when problems with connectivity (Exception or return something?)
+Handle when problems with credentials/endpoint (Exception or return something?)
+
+
 Credits
 --------
 
