@@ -10,10 +10,6 @@ class BasicTask
     protected $action = "";
     protected $params = [];
 
-    public static function params(){
-        return new BasicTask();
-    }
-    
     public function __construct($params = []){
         if(is_array($params)){
             $this->params = $params;
