@@ -1,0 +1,14 @@
+[
+    {
+        "self": "https://kinetica.atlassian.net/rest/api/2/project/10600",
+        "id": "10600",
+        "key": "CHCK",
+        "name": "Checkings",
+        "avatarUrls": {
+            "16x16": "https://kinetica.atlassian.net/secure/projectavatar?size=xsmall&pid=10600&avatarId=10011",
+            "24x24": "https://kinetica.atlassian.net/secure/projectavatar?size=small&pid=10600&avatarId=10011",
+            "32x32": "https://kinetica.atlassian.net/secure/projectavatar?size=medium&pid=10600&avatarId=10011",
+            "48x48": "https://kinetica.atlassian.net/secure/projectavatar?pid=10600&avatarId=10011"
+        }
+    }
+]

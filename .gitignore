@@ -1,2 +1,5 @@
 /livetests/*
 /vendor/*
+
+.idea/*
+atlassian-ide-plugin.xml

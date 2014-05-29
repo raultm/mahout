@@ -70,6 +70,11 @@ class MahoutTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(1, count($result["issues"]));
         $this->assertEquals("14815", $result["issues"][0]->getId());
     }
-    
 
+    public function testMahoutCanUseFindProjectsTask()
+    {
+        $task = Task\Factory::get("FindProjects");
+        $result = $this->mahout->perform($task);
+        $this->assertEquals(1, count($result));
+    }
 }
