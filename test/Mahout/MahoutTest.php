@@ -62,20 +62,22 @@ class MahoutTest extends \PHPUnit_Framework_TestCase
             $result
         );
     }
-    
+
+    public function testMahoutCanUseFindIssueTaskWithIdParamAndRetrieveRenderedFields()
+    {
+        $task = Task\Factory::get("FindIssue", ["id" => "14815"]);
+        $result = $this->mahout->perform($task);
+        $this->assertEquals("21/Mar/2014 9:44 AM", $result->getResolutiondate());
+    }
+
+
+
     public function testMahoutCanUseFindIssuesTaskWithJqlParam()
     {
         $task = Task\Factory::get("FindIssues", ["jql" => "labels = bolsa2014 ORDER BY createdDate DESC"]);
         $result = $this->mahout->perform($task);
         $this->assertEquals(1, count($result["issues"]));
         $this->assertEquals("14815", $result["issues"][0]->getId());
-    }
-
-    public function testMahoutCanUseFindIssuesTaskWithJqlParamAndRetrieveRenderedFields()
-    {
-        $task = Task\Factory::get("FindIssues", ["jql" => "labels = bolsa2014 ORDER BY createdDate DESC"]);
-        $result = $this->mahout->perform($task);
-        $this->assertEquals("21/Mar/2014 9:44 AM", $result["issues"][0]->getResolutiondate());
     }
 
     public function testMahoutCanUseFindProjectsTask()

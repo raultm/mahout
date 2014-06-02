@@ -39,6 +39,10 @@ class Issue
                 return $this->jiraObject->$fieldName;
             }
 
+            if(isset($this->jiraObject->renderedFields->$fieldName)){
+                return $this->jiraObject->renderedFields->$fieldName;
+            }
+
             if(isset($this->jiraObject->fields->$fieldName)){
                 return $this->jiraObject->fields->$fieldName;
             }

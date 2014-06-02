@@ -28,7 +28,7 @@ class MockClient extends BaseClient{
                 return file_get_contents("./responses/filter$filterId.json");
             }
             if($action == "issue"){
-                $issueId = $param;
+                $issueId = str_replace("?expand=renderedFields", "", $param);
                 return file_get_contents("./responses/issue$issueId.json");
             }
             if($action == "search"){
