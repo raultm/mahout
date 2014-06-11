@@ -1,6 +1,6 @@
 MAHOUT - JIRA API Wrapper
 ==========================
-![Travis Statis](https://travis-ci.org/raultm/mahout.svg?branch=master)
+[![Travis Statis](https://travis-ci.org/raultm/mahout.svg?branch=master)](https://travis-ci.org/raultm/mahout/builds)
 
 How to add the library to your project?
 ----------------------------------------
