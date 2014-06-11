@@ -36,7 +36,12 @@ class MockClient extends BaseClient{
                 return file_get_contents("./responses/searchByFilter10800.json");
             }
             if($action == "project"){
-                return file_get_contents("./responses/projects.json");
+                if($param == ""){
+                    return file_get_contents("./responses/projects.json");
+                }else{
+                    return file_get_contents("./responses/project$param.json");
+                }
+
             }
         }
     }

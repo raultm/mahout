@@ -91,6 +91,6 @@ class MahoutTest extends \PHPUnit_Framework_TestCase
     {
         $task = Task\Factory::get("FindProject", ["id" => "10001"]);
         $result = $this->mahout->perform($task);
-        $this->assertEquals("UB", $result["key"]);
+        $this->assertEquals("UB", $result->getKey());
     }
 }

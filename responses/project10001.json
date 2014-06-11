@@ -1,0 +1,117 @@
+{
+    "expand":"projectKeys",
+    "self":"https://kinetica.atlassian.net/rest/api/2/project/10001",
+    "id":"10001",
+    "key":"UB",
+    "description":"Sistema de envío de SMS, email y Apple Passbook",
+    "lead":{
+        "self":"https://kinetica.atlassian.net/rest/api/2/user?username=emilio.ortiz",
+        "key":"emilio.ortiz",
+        "name":"emilio.ortiz",
+        "avatarUrls":{
+            "16x16":"https://kinetica.atlassian.net/secure/useravatar?size=xsmall&ownerId=emilio.ortiz&avatarId=10301",
+            "24x24":"https://kinetica.atlassian.net/secure/useravatar?size=small&ownerId=emilio.ortiz&avatarId=10301",
+            "32x32":"https://kinetica.atlassian.net/secure/useravatar?size=medium&ownerId=emilio.ortiz&avatarId=10301",
+            "48x48":"https://kinetica.atlassian.net/secure/useravatar?ownerId=emilio.ortiz&avatarId=10301"
+        },
+        "displayName":"Emilio Ortiz",
+        "active":true
+    },
+    "components":[
+
+    ],
+    "issueTypes":[
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/issuetype/1",
+            "id":"1",
+            "description":"A problem which impairs or prevents the functions of the product.",
+            "iconUrl":"https://kinetica.atlassian.net/images/icons/issuetypes/bug.png",
+            "name":"Bug",
+            "subtask":false
+        },
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/issuetype/2",
+            "id":"2",
+            "description":"A new feature of the product, which has yet to be developed.",
+            "iconUrl":"https://kinetica.atlassian.net/images/icons/issuetypes/newfeature.png",
+            "name":"New Feature",
+            "subtask":false
+        },
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/issuetype/3",
+            "id":"3",
+            "description":"A task that needs to be done.",
+            "iconUrl":"https://kinetica.atlassian.net/images/icons/issuetypes/task.png",
+            "name":"Task",
+            "subtask":false
+        },
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/issuetype/4",
+            "id":"4",
+            "description":"An improvement or enhancement to an existing feature or task.",
+            "iconUrl":"https://kinetica.atlassian.net/images/icons/issuetypes/improvement.png",
+            "name":"Improvement",
+            "subtask":false
+        },
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/issuetype/5",
+            "id":"5",
+            "description":"The sub-task of the issue",
+            "iconUrl":"https://kinetica.atlassian.net/images/icons/issuetypes/subtask_alternate.png",
+            "name":"Sub-task",
+            "subtask":true
+        },
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/issuetype/6",
+            "id":"6",
+            "description":"A big user story that needs to be broken down.",
+            "iconUrl":"https://kinetica.atlassian.net/images/icons/issuetypes/epic.png",
+            "name":"Epic",
+            "subtask":false
+        },
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/issuetype/7",
+            "id":"7",
+            "description":"",
+            "iconUrl":"https://kinetica.atlassian.net/images/icons/issuetypes/story.png",
+            "name":"Story",
+            "subtask":false
+        },
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/issuetype/8",
+            "id":"8",
+            "description":"A technical task.",
+            "iconUrl":"https://kinetica.atlassian.net/images/icons/issuetypes/task_agile.png",
+            "name":"Technical task",
+            "subtask":true
+        }
+    ],
+    "url":"http://www.ubicual.com",
+    "assigneeType":"PROJECT_LEAD",
+    "versions":[
+        {
+            "self":"https://kinetica.atlassian.net/rest/api/2/version/10000",
+            "id":"10000",
+            "description":"Fully auto payment integrated",
+            "name":"Fry",
+            "archived":false,
+            "released":false,
+            "releaseDate":"2013-01-31",
+            "overdue":true,
+            "userReleaseDate":"31/Jan/2013",
+            "projectId":10001
+        }
+    ],
+    "name":"Ubicual",
+    "roles":{
+        "Users":"https://kinetica.atlassian.net/rest/api/2/project/10001/role/10000",
+        "Administrators":"https://kinetica.atlassian.net/rest/api/2/project/10001/role/10002",
+        "Developers":"https://kinetica.atlassian.net/rest/api/2/project/10001/role/10001"
+    },
+    "avatarUrls":{
+        "16x16":"https://kinetica.atlassian.net/secure/projectavatar?size=xsmall&pid=10001&avatarId=10011",
+        "24x24":"https://kinetica.atlassian.net/secure/projectavatar?size=small&pid=10001&avatarId=10011",
+        "32x32":"https://kinetica.atlassian.net/secure/projectavatar?size=medium&pid=10001&avatarId=10011",
+        "48x48":"https://kinetica.atlassian.net/secure/projectavatar?pid=10001&avatarId=10011"
+    }
+}
