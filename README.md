@@ -66,6 +66,14 @@ echo "<table>" . implode($issuesFormated) . "</table>";
 ?>
 
 ```
+Available Tasks
+---------------------------
+
+1. FindIssues
+2. FindIssue 
+3. FindProjects
+4. FindProject
+5. FindFilter
 
 TO DO
 ------
